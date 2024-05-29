@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --white: #fff;
+    --gray-100: #F8F8FA;
+    --gray-500: #e1e1e6;
+    --gray-700: #808080;
+    --gray-900: #333;
+  
+    --blue-100: #dae0ff;
+    --blue-600: #3C61FF;
+    --blue-700: #1C3EAA;
+  
+    --red-600: #ff3c3c;
+    --red-700: #AA1C1C;
+  }
+  
+  body {
+    background: var(--gray-100);
+  }
+  
+  button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  body,
+  input,
+  button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }

@@ -1,0 +1,115 @@
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+}
+
+.form input {
+    padding: 0.25rem;
+    border: none;
+    border-bottom: 1px solid var(--gray-700);
+    line-height: 1.4;
+    font-size: 1rem;
+    color: var(--gray-700);
+  }
+  
+  .form input::placeholder {
+    opacity: 0.5;
+    font-style: italic;
+  }
+  
+  .form textarea {
+    width: 100%;
+    min-height: 150px;
+  
+    margin: 0.5rem 0rem;
+    padding: 0.25rem;
+    line-height: 1.4;
+    height: 149px;
+  
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 6px;
+    color: var(--gray-900);
+  
+    font-size: 1rem;
+  }
+  
+  .form textarea::placeholder {
+    opacity: 0.5;
+    font-style: italic;
+  }
+  
+  .form header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form header h4 {
+    font-size: 1.2rem
+  }
+  
+  .form p {
+    font-size: 1rem;
+    color: var(--gray-700);
+  }
+  
+  .form p:hover {
+    transition: all .2s ease-in-out;
+  
+    cursor: pointer;
+    color: var(--blue-600);
+    background: var(--blue-100);
+    border-radius: 5px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin: 0;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  
+    min-width: 140px;
+  
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .controls button[type="button"] {
+    color: var(--red-600);
+    border: 1px solid var(--red-600);
+    background: transparent;
+  }
+  
+  .controls button[type="submit"] {
+    color: var(--white);
+    background: var(--blue-600);
+  }
+  
+  .controls button[type="submit"]:hover {
+    background: var(--blue-700);
+  }
+  
+  .controls button[type="button"]:hover {
+    color: var(--white);
+    background: var(--red-700);
+    border: 1px solid transparent;
+  }

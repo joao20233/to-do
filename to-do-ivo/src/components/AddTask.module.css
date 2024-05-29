@@ -1,0 +1,27 @@
+.addTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    margin-top: 1rem;
+    padding: .7rem 0rem;
+  
+    border-radius: 20px;
+    border: 3px dotted var(--gray-500);
+  
+    color: var(--gray-700);
+    font-size: 1.35rem;
+  
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+  
+  .addTask:hover {
+    background: var(--gray-100);
+    color: var(--blue-600);
+  }
+  
+  .addTask svg {
+    margin-right: 0.5rem;
+  }
